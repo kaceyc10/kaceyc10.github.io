@@ -3,3 +3,23 @@
 ---
 
 @import "styles";
+
+@font-face {
+    font-family: GmarketSans-medium;
+    src: url(fonts/GmarketSansTTFMedium.ttf);
+}
+
+@font-face {
+    font-family: HappinessSans;
+    src: url(fonts/happiness_sans/Happiness-Sans-Print-Regular.ttf)
+}
+
+@font-face {
+    font-family: HappinessSans-bold;
+    src: url(fonts/happiness_sans/Happiness-Sans-Print-Bold.ttf);
+    font-weight: bold;
+}
+
+.site-title{
+    font-family: GmarketSans-medium;
+}
